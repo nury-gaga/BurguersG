@@ -1,0 +1,47 @@
+ 
+<!-- <div class="page">  -->
+  <!-- Slider -->
+  <div class="simple-slider page-slider">
+    <div class="slider-wrapper">
+      <!-- Primer slide -->
+      <div class="slider-slide" style="background-image:url('static/img/slider1.jpg');">        
+        <span class="slider-number">1</span>
+      </div>
+
+      <!-- Second slide -->
+      <div class="slider-slide" style="background-image:url('static/img/slider2.jpg');">
+        <span class="slider-number">2</span>
+      </div>
+
+      <!-- Third slide -->
+      <div class="slider-slide" style="background-image:url('static/img/slider3.jpg');">
+        <span class="slider-number">3</span>
+      </div>
+
+      <!-- Fourth slide -->
+      <div class="slider-slide is-bright" style="background-image:url('static/img/slider4.jpg');">
+        <span class="slider-number">4</span>
+      </div>
+    </div>
+
+    <!--Pagination (Not required)-->
+    <div class="slider-pagination"></div>
+
+    <!-- Buttons (Not required) -->
+    <div class="slider-btn slider-btn-prev"></div>
+    <div class="slider-btn slider-btn-next"></div> 
+  </div>
+  <!-- /Slider -->
+<!-- </div>  -->
+
+<script src="js/simpleSlider.min.js"></script>
+<script>
+  var slider = new SimpleSlider('.page-slider',{
+    //Transicion entre diapositivas en ms
+    speed:600,
+    //Retardo de la transici�n entre diapositivas en ms
+    delay:5000,
+    autoplay:true,
+    loop:true
+    });
+</script>

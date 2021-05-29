@@ -1,0 +1,222 @@
+body{
+    background: url(../img/backgroundF.jpg) repeat center center fixed;
+    background-size: unset;
+}
+#logo{
+    background: url(../img/logo5.png) center center fixed;
+    background-size: 5% 5%;
+}
+#letraLogo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    padding-top: 0%;
+    
+}
+#modal-content{
+    background-color: maroon;
+    opacity: .95;
+    padding: 0 20px;
+    box-shadow: 0px 0px 13px maroon;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    padding-top: 0%;
+    color: white;
+    border-radius: unset;
+}
+#cent{
+    text-align: center;
+    font-size: 200%;
+}
+#link{
+    justify-content: center;
+}
+#link a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 1%;
+}
+#link a:hover{
+    background-color: sienna;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  #grid-desktop {
+    width: 740px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-section{
+    margin: 0 auto;
+    padding: 0;
+}
+.modal-content{
+    background-color: maroon;
+    opacity: .95;
+    box-shadow: 0px 0px 13px maroon;
+    margin-top: 3%;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    padding-top: 0%;
+    color: white;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    padding-top: 0%;
+    color: white;
+    font: bold;
+    padding-top: 3%;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px darkred;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 38px;
+    font-size: 16px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 15px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 free";
+    position: absolute;
+    left: 30px;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contraseña-group::before{
+    content: "\f023";
+}
+#grid-desktop {
+    width: 740px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.cupon-desktop {
+    flex: 0 0 33.333%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 240px 240px!important;
+    background-repeat: no-repeat!important;
+    margin-bottom: 50px;
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 240px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    flex: 0 0 25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.btn {
+    width: 98%;
+    height: auto;
+    max-height: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1F8909;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 236px;
+    left: -3px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background: #a4b357;
+    background: -moz-linear-gradient(#f09738 0%, #ec7a00 100%);
+    background: -webkit-linear-gradient(#f09738 0%, #ec7a00 100%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f09738), to(#ec7a00));
+    background: -o-linear-gradient(#f09738 0%, #ec7a00 100%);
+    background: linear-gradient(#f09738 0%, #ec7a00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09738', endColorstr='#ec7a00', GradientType=0 );
+    font-family: 'BlockPro-Condensed', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    -webkit-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.8);
+}
+#sencilla{
+    background: url(../img/Logo6.png);
+}
+#main-container{
+    width: 70;
+    margin: unset;
+}
+table{
+    background-color: white;
+    text-align: left;
+    width: 100%;
+}
+td, th{
+    padding: 1%;
+}
+thead{
+    background-color: maroon;
+    border-bottom: solid 5px;
+    color: white;
+}
+tr:hover td{
+    background-color: sienna;
+    color: white;
+}
